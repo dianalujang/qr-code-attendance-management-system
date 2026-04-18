@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "totalTests": 19,
+    "passed": 18,
+    "failed": 1,
+    "passRate": "94.74%"
+  },
+  "tests": [
+    {
+      "testCase": "User Authentication",
+      "operation": "Login",
+      "duration": 715,
+      "threshold": 2000,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Dashboard Loading",
+      "operation": "Complete Dashboard Load",
+      "duration": 1328,
+      "threshold": 2000,
+      "status": "PASS"
+    },
+    {
+      "testCase": "QR Code Generation",
+      "operation": "Generate QR Code",
+      "duration": 806,
+      "threshold": 1500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Attendance Marking",
+      "operation": "Mark Attendance (QR Scan)",
+      "duration": 481,
+      "threshold": 1000,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Attendance Records Loading",
+      "operation": "Load 50 Records",
+      "duration": 539,
+      "threshold": 1500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Attendance Records Loading",
+      "operation": "Load 100 Records",
+      "duration": 980,
+      "threshold": 1500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Attendance Records Loading",
+      "operation": "Load 500 Records",
+      "duration": 1963,
+      "threshold": 1500,
+      "status": "FAIL"
+    },
+    {
+      "testCase": "Excel Export",
+      "operation": "Export 50 Records to Excel",
+      "duration": 291,
+      "threshold": 1500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Excel Export",
+      "operation": "Export 100 Records to Excel",
+      "duration": 472,
+      "threshold": 1500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Excel Export",
+      "operation": "Export 500 Records to Excel",
+      "duration": 2533,
+      "threshold": 3000,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Excel Export",
+      "operation": "Export 1000 Records to Excel",
+      "duration": 4832,
+      "threshold": 5000,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Page Navigation",
+      "operation": "Dashboard → Students",
+      "duration": 319,
+      "threshold": 500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Page Navigation",
+      "operation": "Students → Attendance",
+      "duration": 160,
+      "threshold": 500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Page Navigation",
+      "operation": "Attendance → Scan",
+      "duration": 289,
+      "threshold": 500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Page Navigation",
+      "operation": "Scan → QR Enrollment",
+      "duration": 325,
+      "threshold": 500,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Student Management",
+      "operation": "Load Students List (50)",
+      "duration": 783,
+      "threshold": 1000,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Student Management",
+      "operation": "Add New Student",
+      "duration": 877,
+      "threshold": 1000,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Student Management",
+      "operation": "Search Student",
+      "duration": 91,
+      "threshold": 200,
+      "status": "PASS"
+    },
+    {
+      "testCase": "Student Management",
+      "operation": "Update Student Info",
+      "duration": 752,
+      "threshold": 1000,
+      "status": "PASS"
+    }
+  ],
+  "timestamp": "2025-12-01T22:40:32.232Z"
+}
