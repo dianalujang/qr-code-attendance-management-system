@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "Low Load",
+    "users": 25,
+    "avgResponseTime": 227,
+    "minResponseTime": 84,
+    "maxResponseTime": 397,
+    "p95ResponseTime": 364,
+    "throughput": "16.21",
+    "errorRate": "0.00"
+  },
+  {
+    "scenario": "Medium Load",
+    "users": 50,
+    "avgResponseTime": 231,
+    "minResponseTime": 82,
+    "maxResponseTime": 399,
+    "p95ResponseTime": 360,
+    "throughput": "31.27",
+    "errorRate": "0.00"
+  },
+  {
+    "scenario": "High Load",
+    "users": 100,
+    "avgResponseTime": 232,
+    "minResponseTime": 80,
+    "maxResponseTime": 397,
+    "p95ResponseTime": 363,
+    "throughput": "61.32",
+    "errorRate": "0.00"
+  }
+]

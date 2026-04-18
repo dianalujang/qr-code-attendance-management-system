@@ -1,3 +1,34 @@
+<<<<<<< HEAD
 serviceAccountKey.json
 node_modules
 .env
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules
+.env
+.env.local
+build/
+>>>>>>> 47a5346a7f51f52f973a63569857385bafa9dee8
+qr-code-attendance-61bba-firebase-adminsdk-fbsvc-9db520bc9d.json
